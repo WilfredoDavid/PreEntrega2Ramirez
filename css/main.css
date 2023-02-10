@@ -1,0 +1,179 @@
+/* reset */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* estilos genericos */
+
+body{
+    background-color: rgb(230, 217, 207);
+}
+
+/* propiedades del contenedor */
+.contenedora{
+    display: flex;
+    /* direccion del contenedor */
+    flex-direction: row-reverse;
+
+}
+
+/* propiedades de los hijos */
+.hijos{
+    background-color:rgb(230, 217, 207) ;
+    list-style: none;
+    margin: 30px;
+    padding: 15px;
+    box-shadow: 2px 2px 4px black;
+
+
+
+}
+
+
+/* estilos de home */
+
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(165, 161, 156);
+    align-items: center;
+    
+}
+
+header div{
+    margin-top: 50px;
+}
+
+header img{
+    width: 200px;
+    margin-left: 50px;
+    margin-top:50px;
+}
+
+/* estilos de main */
+
+main{
+    margin: 4%;
+    display: grid;
+}
+
+main h1{
+    display: grid;
+    justify-content: center;
+}
+main h1 h2{
+    display: grid;
+    justify-content: center;
+}
+
+
+main .contenedorUno{
+    display: grid ;
+    gap: 1%;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(1);
+    
+}
+
+
+
+    
+
+
+/* estilo del footer */
+
+footer{
+    display: grid;
+    flex-direction: row;
+    background-color: rgb(165, 161, 156);
+    margin-top: 20px;
+    padding: 20px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+/* estilos de heladeria */
+
+.contenedorSabores{
+    margin: 30px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: 1fr 1fr;
+}
+/* estilos sabores*/
+
+.chocolate{
+    padding: 10px;
+    text-align: center;
+}
+.bananaSplit{
+    padding: 10px;
+    text-align: center;
+}
+.frutilla{
+    padding: 10px;
+    text-align: center;
+}
+.vainilla{
+    padding: 10px;
+    text-align: center;
+}
+/* estilos de cafeteria */
+
+main h1 div p{
+
+    font-weight: bold;
+    
+}
+
+/* estilos contactos */
+
+/* estilos instalaciones */
+
+.lugares{
+    width: 50%;
+    margin: 30px;
+    display: grid;
+    grid-template-columns: repeat(3,65%);
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+
+}
+.item1{
+    padding: 5px;
+    text-align: center;
+    grid-row: span 2;
+}
+.item2{
+    padding: 5px;
+    text-align: center;
+}
+.item3{
+    padding: 5px;
+    text-align: center;
+}
+.item4{
+    padding: 5px;
+    text-align: center;
+}
+.item5{
+    padding: 5px;
+    text-align: center;
+}
+.item6{
+    padding: 5px;
+    text-align: center;
+    grid-column: span 3;
+
+}
+
+/*propiedades de las imagenes*/
+img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
