@@ -56,17 +56,23 @@ header img{
 /* estilos de main */
 
 main{
-    margin: 4%;
     display: grid;
 }
 
 main h1{
     display: grid;
     justify-content: center;
+    padding: 30px;
 }
 main h1 h2{
     display: grid;
     justify-content: center;
+}
+main div p{
+    display: flex;
+    text-align: justify;
+    grid-template-rows: span 4;
+    justify-items: center;
 }
 
 
@@ -125,17 +131,54 @@ footer{
 }
 /* estilos de cafeteria */
 
-main h1 div p{
-
-    font-weight: bold;
-    
+.cartaCafe{
+    margin: 30px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-items: center;
+    align-items: center;
+}
+.cafeLeche{
+    padding: 50px;
+    text-align: center;
+}
+.capuccino{
+    padding: 50px;
+    text-align: center;
+}
+.cheesecake{
+    padding: 50px;
+    text-align: center;
 }
 
 /* estilos contactos */
-
+.redesSociales{
+    margin: 30px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    justify-items: center;
+    align-items: center;
+}
+.instagram{
+    padding: 50px;
+    text-align: center; 
+}
+.facebook{
+    padding: 50px;
+    text-align: center;
+}
+.whatsapp{
+    padding: 50px;
+    text-align: center;
+}
+.telefono{
+    padding: 50px;
+    text-align: center;
+}
 /* estilos instalaciones */
 
 .lugares{
+    height: 500px;
     width: 50%;
     margin: 30px;
     display: grid;
