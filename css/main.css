@@ -52,11 +52,10 @@ header img{
     margin-left: 50px;
     margin-top:50px;
 }
-
 /* estilos de main */
 
 main{
-    display: grid;
+    height: 100%;
 }
 
 main h1{
@@ -79,10 +78,12 @@ main div p{
 main .contenedorUno{
     display: grid ;
     gap: 1%;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(1);
     
+
 }
+
 
 
 
@@ -219,4 +220,16 @@ img{
     width: 100%;
     height: 100%;
     object-fit: cover;
+}
+
+/* mq desktop */
+
+@media screen and (min-width: 1024px) {
+
+    main .contenedorUno{
+        display: grid ;
+        gap: 1%;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(1);
+    }
 }
