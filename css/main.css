@@ -1,235 +1,25 @@
-/* reset */
+/*reset*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-/* estilos genericos */
-
-body{
-    background-color: rgb(230, 217, 207);
-}
-
-/* propiedades del contenedor */
-.contenedora{
-    display: flex;
-    /* direccion del contenedor */
-    flex-direction: row-reverse;
-
-}
-
-/* propiedades de los hijos */
-.hijos{
-    background-color:rgb(230, 217, 207) ;
-    list-style: none;
-    margin: 30px;
-    padding: 15px;
-    box-shadow: 2px 2px 4px black;
-
-
-
-}
-
-
-/* estilos de home */
-
-header{
-    display: flex;
-    justify-content: space-between;
-    background-color: rgb(165, 161, 156);
-    align-items: center;
-    
-}
-
-header div{
-    margin-top: 50px;
-}
-
-header img{
+/*estilos de home*/
+.body .header-home {
+  background-color: #a5a19c;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 1rem;
+  gap: 4 rem; }
+  .body .header-home div img {
     width: 200px;
-    margin-left: 50px;
-    margin-top:50px;
-}
-/* estilos de main */
+    margin-top: 50px; }
 
-main{
-    height: 100%;
-}
-
-main h1{
-    display: grid;
-    justify-content: center;
-    padding: 30px;
-}
-main h1 h2{
-    display: grid;
-    justify-content: center;
-}
-main div p{
-    display: flex;
-    text-align: justify;
-    grid-template-rows: span 4;
-    justify-items: center;
-}
-
-
-main .contenedorUno{
-    display: grid ;
-    gap: 1%;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(1);
-    
-
-}
-
-
-
-
-    
-
-
-/* estilo del footer */
-
-footer{
-    display: grid;
-    flex-direction: row;
-    background-color: rgb(165, 161, 156);
-    margin-top: 20px;
-    padding: 20px;
-    text-align: center;
-    align-items: center;
-    justify-content: center;
-    
-}
-
-/* estilos de heladeria */
-
-.contenedorSabores{
-    margin: 30px;
-    display: grid;
-    grid-template-columns: repeat(4,1fr);
-    grid-template-rows: 1fr 1fr;
-}
-/* estilos sabores*/
-
-.chocolate{
-    padding: 10px;
-    text-align: center;
-}
-.bananaSplit{
-    padding: 10px;
-    text-align: center;
-}
-.frutilla{
-    padding: 10px;
-    text-align: center;
-}
-.vainilla{
-    padding: 10px;
-    text-align: center;
-}
-/* estilos de cafeteria */
-
-.cartaCafe{
-    margin: 30px;
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-    justify-items: center;
-    align-items: center;
-}
-.cafeLeche{
-    padding: 50px;
-    text-align: center;
-}
-.capuccino{
-    padding: 50px;
-    text-align: center;
-}
-.cheesecake{
-    padding: 50px;
-    text-align: center;
-}
-
-/* estilos contactos */
-.redesSociales{
-    margin: 30px;
-    display: grid;
-    grid-template-columns: repeat(4,1fr);
-    justify-items: center;
-    align-items: center;
-}
-.instagram{
-    padding: 50px;
-    text-align: center; 
-}
-.facebook{
-    padding: 50px;
-    text-align: center;
-}
-.whatsapp{
-    padding: 50px;
-    text-align: center;
-}
-.telefono{
-    padding: 50px;
-    text-align: center;
-}
-/* estilos instalaciones */
-
-.lugares{
-    height: 500px;
-    width: 50%;
-    margin: 30px;
-    display: grid;
-    grid-template-columns: repeat(3,65%);
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
-
-}
-.item1{
-    padding: 5px;
-    text-align: center;
-    grid-row: span 2;
-}
-.item2{
-    padding: 5px;
-    text-align: center;
-}
-.item3{
-    padding: 5px;
-    text-align: center;
-}
-.item4{
-    padding: 5px;
-    text-align: center;
-}
-.item5{
-    padding: 5px;
-    text-align: center;
-}
-.item6{
-    padding: 5px;
-    text-align: center;
-    grid-column: span 3;
-
-}
-
-/*propiedades de las imagenes*/
-img{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-
-/* mq desktop */
-
-@media screen and (min-width: 1024px) {
-
-    main .contenedorUno{
-        display: grid ;
-        gap: 1%;
-        grid-template-columns: repeat(4, 1fr);
-        grid-template-rows: repeat(1);
-    }
-}
+/*estilos de main*/
+.main-home {
+  background-color: #a5a19c;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 50%;
+  gap: 15px; }
