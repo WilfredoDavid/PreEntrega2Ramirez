@@ -1,0 +1,29 @@
+/* estilos contactos */
+main{
+    div{
+        .redesSociales{
+        margin: 30px;
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        justify-items: center;
+        align-items: center;
+        }
+    }    
+
+        .instagram{
+        padding: 50px;
+        text-align: center; 
+        }
+        .facebook{
+        padding: 50px;
+        text-align: center;
+        }
+        .whatsapp{
+        padding: 50px;
+        text-align: center;
+        }
+        .telefono{
+        padding: 50px;
+        text-align: center;
+        }
+}

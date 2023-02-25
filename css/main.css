@@ -5,21 +5,115 @@
   box-sizing: border-box; }
 
 /*estilos de home*/
-.body .header-home {
-  background-color: #a5a19c;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  padding: 1rem;
-  gap: 4 rem; }
-  .body .header-home div img {
-    width: 200px;
-    margin-top: 50px; }
-
-/*estilos de main*/
-.main-home {
-  background-color: #a5a19c;
+main {
+  height: 110vh;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: 50%;
-  gap: 15px; }
+  gap: 15px;
+  margin: 20px; }
+  main div img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; }
+  main div .parrafo {
+    display: grid;
+    grid-column: span 4;
+    justify-content: center;
+    padding: 30px;
+    text-decoration-color: black; }
+
+/*estilos de heladeria */
+section {
+  display: flex;
+  width: 300px;
+  height: 300px;
+  gap: 60px;
+  align-items: center; }
+  section img {
+    width: 90%;
+    flex-grow: 3;
+    object-fit: cover;
+    opacity: .8;
+    transition: .5s ease; }
+    section img :hover {
+      cursor: pointer;
+      width: 400px;
+      opacity: 1;
+      filter: contrast(120%); }
+
+/*estilos de cafeteria*/
+section {
+  display: flex;
+  width: 300px;
+  height: 300px;
+  gap: 60px;
+  align-items: center; }
+  section img {
+    width: 90%;
+    flex-grow: 3;
+    object-fit: cover;
+    opacity: .8;
+    transition: .5s ease; }
+    section img :hover {
+      cursor: pointer;
+      width: 400px;
+      opacity: 1;
+      filter: contrast(120%); }
+
+footer {
+  display: grid; }
+
+/* estilos contactos */
+main div .redesSociales {
+  margin: 30px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  justify-items: center;
+  align-items: center; }
+
+main .instagram {
+  padding: 50px;
+  text-align: center; }
+
+main .facebook {
+  padding: 50px;
+  text-align: center; }
+
+main .whatsapp {
+  padding: 50px;
+  text-align: center; }
+
+main .telefono {
+  padding: 50px;
+  text-align: center; }
+
+/* estilos generales*/
+body {
+  background-color: #e6d9cf; }
+
+header {
+  display: flex;
+  justify-content: space-around;
+  background-color: #a5a19c;
+  align-items: center;
+  padding: 1rem;
+  gap: 4rem; }
+  header div {
+    margin-top: 10px; }
+    header div img {
+      width: 200px; }
+
+h1 {
+  display: grid;
+  justify-content: center;
+  padding: 30px; }
+
+footer {
+  display: grid;
+  flex-direction: row;
+  background-color: #a5a19c;
+  padding: 20px;
+  text-align: center;
+  align-items: center;
+  justify-content: center; }

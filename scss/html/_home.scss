@@ -1,31 +1,27 @@
 // variables
-@import "../utilidades/variables";
 
 /*estilos de home*/
 
-.body{
-    .header-home {
-        background-color: $color-principal;
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-        padding: 1rem;
-        gap: 4 rem;
-    
-        div {
-            img{
-                width: 200px;
-                margin-top: 50px;
-            }
-        }
-    }
-}
-/*estilos de main*/
-
-.main-home {
-    background-color: $color-principal;
+main{
+    height:110vh;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: 50%;
     gap: 15px;
+    margin: 20px;
+
+    div {
+        img{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        .parrafo {
+            display: grid;
+            grid-column: span 4;
+            justify-content: center;
+            padding: 30px;
+            text-decoration-color: black;
+        }
+    }
 }

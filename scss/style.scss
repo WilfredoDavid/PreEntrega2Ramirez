@@ -8,6 +8,46 @@
 }
 
 // imports
+@import "utilidades/_variables.scss";
+@import "html/_home.scss";
+@import "html/_heladeria.scss";
+@import "html/_cafeteria.scss";
+@import "html/_contacto.scss";
 
-@import "html/home"
+/* estilos generales*/
 
+body{
+    background-color: $color-body;
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+    background-color: $color-header;
+    align-items: center;
+    padding: 1rem;
+    gap: 4rem;
+
+    div{
+        margin-top: 10px;
+       img {
+        width: 200px;
+       } 
+    }
+}
+
+h1{
+    display: grid;
+    justify-content: center;
+    padding: 30px;
+}
+
+footer {
+    display: grid;
+    flex-direction: row;
+    background-color: rgb(165, 161, 156);
+    padding: 20px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
