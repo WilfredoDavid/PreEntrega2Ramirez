@@ -1,6 +1,6 @@
 /*estilos de cafeteria*/
 section{
-    display: grid;
+    display: flex;
     width: 300px;
     height: 300px;
     gap: 60px;
@@ -17,13 +17,7 @@ section{
             opacity: 1;
             filter: contrast(120%);
             }
-    p {
-        display: flex;
-        text-align: center;
-        text-decoration-style: dotted
-
-    }
-        
+   
     }
 }
 @import "../utilidades/md";

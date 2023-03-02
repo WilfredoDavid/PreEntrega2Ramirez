@@ -82,7 +82,7 @@ section {
 
 /*estilos de cafeteria*/
 section {
-  display: grid;
+  display: flex;
   width: 300px;
   height: 300px;
   gap: 60px;
@@ -98,10 +98,6 @@ section {
       width: 400px;
       opacity: 1;
       filter: contrast(120%); }
-    section img p {
-      display: flex;
-      text-align: center;
-      text-decoration-style: dotted; }
 
 /* mq para tablets */
 @media screen and (max-width: 600px) {
@@ -124,7 +120,7 @@ section {
 
 /* estilos contactos */
 section {
-  display: grid;
+  display: flex;
   width: 300px;
   height: 300px;
   gap: 60px;
