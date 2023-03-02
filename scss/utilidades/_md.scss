@@ -1,0 +1,30 @@
+/* mq para tablets */
+@media screen and (max-width: 600px) {
+    main {
+        height: 300vh;
+        grid-template-columns: repeat(1, 2fr);
+        grid-template-rows: 50%, 50%;   
+        section{
+            img {
+                display: grid;
+                grid-template-columns: repeat(1,2fr);
+            }
+        }
+        .yogurt{
+            display: none;
+        }
+        .toston {
+        display: none;
+        }
+        
+    }
+
+    header {
+        height: 50vh;
+    }
+    
+    footer {
+        height: 10vh;
+        display: grid;
+    }
+}

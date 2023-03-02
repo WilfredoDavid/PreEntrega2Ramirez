@@ -1,6 +1,6 @@
 /*estilos de heladeria */
 section{
-    display: flex;
+    display: grid;
     width: 300px;
     height: 300px;
     gap: 60px;
@@ -11,7 +11,7 @@ section{
         object-fit: cover;
         opacity: .8;
         transition: .5s ease;
-        :hover {
+        &:hover {
             cursor: pointer;
             width: 400px;
             opacity: 1;
@@ -20,3 +20,4 @@ section{
         
     }
 }
+@import "../utilidades/md";

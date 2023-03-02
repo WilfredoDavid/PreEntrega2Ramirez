@@ -1,0 +1,39 @@
+/* estilos de instalaciones */
+
+.lugares{
+    height: 500px;
+    width: 50%;
+    margin: 30px;
+    display: grid;
+    grid-template-columns: repeat(3,65%);
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+
+    div .item1{
+        padding: 5px;
+        text-align: center;
+        grid-row: span 2;
+    }
+    div .item2{
+        padding: 5px;
+        text-align: center;
+    }
+    div .item3{
+        padding: 5px;
+        text-align: center;
+    }
+    div .item4{
+        padding: 5px;
+        text-align: center;
+    }
+    div .item5{
+        padding: 5px;
+        text-align: center;
+    }
+    div .item6{
+        padding: 5px;
+        text-align: center;
+        grid-column: span 3;
+    }
+
+}
+@import "../utilidades/md";
