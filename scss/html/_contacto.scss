@@ -5,11 +5,15 @@ section{
     height: 300px;
     gap: 60px;
     align-items: center;
-    img {
+    
+    a  {
+        img {
         @include imagenes;
         &:hover {
             @include efectos;
             }
+
+        }
         
     }
 }
